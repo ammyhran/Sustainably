@@ -16,6 +16,9 @@
 		18B1E8E124BE4D2700395310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1E8DF24BE4D2700395310 /* LaunchScreen.storyboard */; };
 		18B1E8EC24BE4D2700395310 /* SustainablyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E8EB24BE4D2700395310 /* SustainablyTests.swift */; };
 		18B1E8F724BE4D2700395310 /* SustainablyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E8F624BE4D2700395310 /* SustainablyUITests.swift */; };
+		18B1E90524BE584D00395310 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E90424BE584D00395310 /* PersonalViewController.swift */; };
+		18B1E90724BE587100395310 /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E90624BE587100395310 /* LocalViewController.swift */; };
+		18B1E90924BE589A00395310 /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E90824BE589A00395310 /* GlobalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		18B1E8F224BE4D2700395310 /* SustainablyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SustainablyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B1E8F624BE4D2700395310 /* SustainablyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainablyUITests.swift; sourceTree = "<group>"; };
 		18B1E8F824BE4D2700395310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1E90424BE584D00395310 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		18B1E90624BE587100395310 /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
+		18B1E90824BE589A00395310 /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				18B1E8D324BE4D2600395310 /* SceneDelegate.swift */,
 				18B1E8D524BE4D2600395310 /* ViewController.swift */,
 				18B1E8D724BE4D2600395310 /* Main.storyboard */,
+				18B1E90824BE589A00395310 /* GlobalViewController.swift */,
+				18B1E90624BE587100395310 /* LocalViewController.swift */,
+				18B1E90424BE584D00395310 /* PersonalViewController.swift */,
 				18B1E8DD24BE4D2700395310 /* Assets.xcassets */,
 				18B1E8DF24BE4D2700395310 /* LaunchScreen.storyboard */,
 				18B1E8E224BE4D2700395310 /* Info.plist */,
@@ -262,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B1E90724BE587100395310 /* LocalViewController.swift in Sources */,
 				18B1E8D624BE4D2600395310 /* ViewController.swift in Sources */,
+				18B1E90524BE584D00395310 /* PersonalViewController.swift in Sources */,
+				18B1E90924BE589A00395310 /* GlobalViewController.swift in Sources */,
 				18B1E8D224BE4D2600395310 /* AppDelegate.swift in Sources */,
 				18B1E8D424BE4D2600395310 /* SceneDelegate.swift in Sources */,
 				18B1E8DC24BE4D2600395310 /* Sustainably.xcdatamodeld in Sources */,
