@@ -19,6 +19,8 @@
 		18B1E90B24BF9D0700395310 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E90A24BF9D0700395310 /* PersonalViewController.swift */; };
 		18B1E90D24BF9D3800395310 /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E90C24BF9D3800395310 /* LocalViewController.swift */; };
 		18B1E90F24BF9DF600395310 /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E90E24BF9DF600395310 /* GlobalViewController.swift */; };
+		65926A6E24C0C42E00AC15D3 /* cityOptionsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A6D24C0C42E00AC15D3 /* cityOptionsPage.swift */; };
+		65926A7024C0C71A00AC15D3 /* localImpactSanFran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A6F24C0C71A00AC15D3 /* localImpactSanFran.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		18B1E90A24BF9D0700395310 /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 		18B1E90C24BF9D3800395310 /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
 		18B1E90E24BF9DF600395310 /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
+		65926A6D24C0C42E00AC15D3 /* cityOptionsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityOptionsPage.swift; sourceTree = "<group>"; };
+		65926A6F24C0C71A00AC15D3 /* localImpactSanFran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localImpactSanFran.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		18B1E8C524BE4D2600395310 = {
 			isa = PBXGroup;
 			children = (
+				65926A6D24C0C42E00AC15D3 /* cityOptionsPage.swift */,
+				65926A6F24C0C71A00AC15D3 /* localImpactSanFran.swift */,
 				18B1E8D024BE4D2600395310 /* Sustainably */,
 				18B1E8EA24BE4D2700395310 /* SustainablyTests */,
 				18B1E8F524BE4D2700395310 /* SustainablyUITests */,
@@ -273,6 +279,8 @@
 			files = (
 				18B1E90D24BF9D3800395310 /* LocalViewController.swift in Sources */,
 				18B1E8D624BE4D2600395310 /* ViewController.swift in Sources */,
+				65926A7024C0C71A00AC15D3 /* localImpactSanFran.swift in Sources */,
+				65926A6E24C0C42E00AC15D3 /* cityOptionsPage.swift in Sources */,
 				18B1E90B24BF9D0700395310 /* PersonalViewController.swift in Sources */,
 				18B1E90F24BF9DF600395310 /* GlobalViewController.swift in Sources */,
 				18B1E8D224BE4D2600395310 /* AppDelegate.swift in Sources */,
