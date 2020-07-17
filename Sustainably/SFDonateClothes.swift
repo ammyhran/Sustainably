@@ -1,5 +1,5 @@
 //
-//  GlobalPetition.swift
+//  SFDonateClothes.swift
 //  Sustainably
 //
 //  Created by Annie Reller on 7/16/20.
@@ -8,13 +8,8 @@
 
 import UIKit
 
-class GlobalPetition: UIView {
-    
-    
-    @IBAction func changeButton(_ sender: Any) {
-    
-    UIApplication.shared.open(URL(string: "https://www.change.org/t/climate-change-3")! as URL, options: [:], completionHandler: nil)
-    }
+class SFDonateClothes: UIView {
+
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

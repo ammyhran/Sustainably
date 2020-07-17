@@ -39,6 +39,7 @@
 		65926AA024C1310C00AC15D3 /* SFGarden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9F24C1310C00AC15D3 /* SFGarden.swift */; };
 		65926AA224C1311700AC15D3 /* SFThrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926AA124C1311700AC15D3 /* SFThrift.swift */; };
 		65926AA424C1322700AC15D3 /* OurStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926AA324C1322700AC15D3 /* OurStory.swift */; };
+		65926AA624C132F200AC15D3 /* SFDonateClothes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926AA524C132F200AC15D3 /* SFDonateClothes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		65926A9F24C1310C00AC15D3 /* SFGarden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGarden.swift; sourceTree = "<group>"; };
 		65926AA124C1311700AC15D3 /* SFThrift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFThrift.swift; sourceTree = "<group>"; };
 		65926AA324C1322700AC15D3 /* OurStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurStory.swift; sourceTree = "<group>"; };
+		65926AA524C132F200AC15D3 /* SFDonateClothes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFDonateClothes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				65926A9F24C1310C00AC15D3 /* SFGarden.swift */,
 				65926AA124C1311700AC15D3 /* SFThrift.swift */,
 				65926AA324C1322700AC15D3 /* OurStory.swift */,
+				65926AA524C132F200AC15D3 /* SFDonateClothes.swift */,
 				65926A6D24C0C42E00AC15D3 /* cityOptionsPage.swift */,
 				65926A6F24C0C71A00AC15D3 /* localImpactSanFran.swift */,
 				18B1E8D124BE4D2600395310 /* AppDelegate.swift */,
@@ -341,6 +344,7 @@
 				65926AA224C1311700AC15D3 /* SFThrift.swift in Sources */,
 				65926A8424C0F44000AC15D3 /* GlobalAccounts.swift in Sources */,
 				65926A7024C0C71A00AC15D3 /* localImpactSanFran.swift in Sources */,
+				65926AA624C132F200AC15D3 /* SFDonateClothes.swift in Sources */,
 				65926A6E24C0C42E00AC15D3 /* cityOptionsPage.swift in Sources */,
 				65926A8624C0F44C00AC15D3 /* GlobalDonate.swift in Sources */,
 				65926A8224C0F43200AC15D3 /* GlobalStores.swift in Sources */,

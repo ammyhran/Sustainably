@@ -9,6 +9,23 @@
 import UIKit
 
 class GlobalDonate: UIView {
+    
+    @IBAction func rainforestButton(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://www.rainforestcoalition.org/donations/")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    @IBAction func cleanButton(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://www.catf.us/donate/")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    @IBAction func sunriseButton(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://www.sunrisemovement.org")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
 
     /*
     // Only override draw() if you perform custom drawing.
