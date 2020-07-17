@@ -2300,11 +2300,11 @@
             </objects>
             <point key="canvasLocation" x="1209" y="-1256"/>
         </scene>
-        <!--View Controller-->
+        <!--Seattle Clothing Donate-->
         <scene sceneID="pNt-5A-85D">
             <objects>
-                <viewController id="OWi-rq-uLM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="a7Z-AH-qwE" customClass="SeattleClothingDonate" customModule="Sustainably" customModuleProvider="target">
+                <viewController id="OWi-rq-uLM" customClass="SeattleClothingDonate" customModule="Sustainably" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a7Z-AH-qwE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -2342,6 +2342,7 @@
                                 <rect key="frame" x="67" y="381" width="300" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="dressButton1:" destination="OWi-rq-uLM" eventType="touchUpInside" id="qdk-WK-Z4j"/>
                                     <action selector="dressButton:" destination="a7Z-AH-qwE" eventType="touchUpInside" id="ulo-Rm-TTs"/>
                                 </connections>
                             </button>
@@ -2357,6 +2358,7 @@
                                 <rect key="frame" x="67" y="532" width="300" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="button3:" destination="OWi-rq-uLM" eventType="touchUpInside" id="OaC-dc-4nb"/>
                                     <action selector="closetButton:" destination="a7Z-AH-qwE" eventType="touchUpInside" id="HoG-te-Zva"/>
                                 </connections>
                             </button>
@@ -2379,6 +2381,7 @@
                                 <rect key="frame" x="57" y="219" width="300" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
+                                    <action selector="seattleButton1:" destination="OWi-rq-uLM" eventType="touchUpInside" id="Obt-aB-aAU"/>
                                     <action selector="seattleButton:" destination="a7Z-AH-qwE" eventType="touchUpInside" id="V8W-Jw-GW7"/>
                                 </connections>
                             </button>
@@ -2606,12 +2609,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="ThW-Cx-Yxw"/>
         <segue reference="A4Z-bw-Xo1"/>
         <segue reference="kjn-A7-rDP"/>
-        <segue reference="bRJ-tv-Fqj"/>
+        <segue reference="vOh-Al-5Je"/>
         <segue reference="6HT-Ly-SLV"/>
-        <segue reference="Rtj-0Q-fd5"/>
-        <segue reference="uVQ-Z5-VBc"/>
+        <segue reference="ywp-se-6Ot"/>
+        <segue reference="TEb-3z-IB2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2843BA7A-8449-46FB-83E2-42043551B119_1_105_c" width="850" height="924"/>
