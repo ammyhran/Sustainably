@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -99,74 +99,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sustainably" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMM-NR-viT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sustainably" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMM-NR-viT">
                                 <rect key="frame" x="131" y="52" width="152" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="our story" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-RX-FH7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="our story" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lf-RX-FH7">
                                 <rect key="frame" x="164" y="115" width="86" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Avatar-Maker (1)" translatesAutoresizingMaskIntoConstraints="NO" id="d3D-lk-ahj">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Avatar-Maker (1)" translatesAutoresizingMaskIntoConstraints="NO" id="d3D-lk-ahj">
                                 <rect key="frame" x="20" y="161" width="118" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Avatar-Maker (2)" translatesAutoresizingMaskIntoConstraints="NO" id="qma-q5-7hz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatar-Maker (2)" translatesAutoresizingMaskIntoConstraints="NO" id="qma-q5-7hz">
                                 <rect key="frame" x="20" y="511" width="120" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="ttQ-3T-2lG"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="35BEB5E2-1F48-4A43-8220-371F05DF84AD_4_5005_c" translatesAutoresizingMaskIntoConstraints="NO" id="7Z2-6n-o9a">
-                                <rect key="frame" x="139" y="640" width="137" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="35BEB5E2-1F48-4A43-8220-371F05DF84AD_4_5005_c" translatesAutoresizingMaskIntoConstraints="NO" id="7Z2-6n-o9a">
+                                <rect key="frame" x="138.5" y="640" width="137" height="128"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3f-iL-hqr">
-                                <rect key="frame" x="139" y="640" width="137" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3f-iL-hqr">
+                                <rect key="frame" x="138.5" y="640" width="137" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="y0w-QA-34D"/>
+                                </constraints>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="showDetail" id="kh4-f2-VUf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="alice myhran is seventeen years old and from redmond, washington. she will be a senior in high school this fall." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1G-PG-7wy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="alice myhran is seventeen years old and from redmond, washington. she will be a senior in high school this fall." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1G-PG-7wy">
                                 <rect key="frame" x="146" y="519" width="241" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVt-HO-qRQ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVt-HO-qRQ">
                                 <rect key="frame" x="90" y="37" width="235" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="showDetail" id="I9l-Ft-C8M"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tF-LX-v4z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tF-LX-v4z">
                                 <rect key="frame" x="146" y="151" width="241" height="148"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="148" id="Om4-lO-i0j"/>
+                                </constraints>
                                 <string key="text">annie reller is eighteen years old and from bellevue, washington. she will be attending stanford university this fall in the class of 2024. </string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2843BA7A-8449-46FB-83E2-42043551B119_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="4iP-EK-tHo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="2843BA7A-8449-46FB-83E2-42043551B119_1_105_c" translatesAutoresizingMaskIntoConstraints="NO" id="4iP-EK-tHo">
                                 <rect key="frame" x="20" y="331" width="120" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hailey garcia is seventeen years old and from the bay area. she will be a senior in high school in the fall." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjK-kh-Oyl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="hailey garcia is seventeen years old and from the bay area. she will be a senior in high school in the fall." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjK-kh-Oyl">
                                 <rect key="frame" x="146" y="334" width="241" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mn-Hl-LHs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mn-Hl-LHs">
                                 <rect key="frame" x="20" y="20" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <state key="normal" title="back">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -175,23 +173,26 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Hir-y3-7nf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkJ-rE-bmx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkJ-rE-bmx">
                                 <rect key="frame" x="20" y="151" width="374" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="138" id="IQR-Vs-jhh"/>
+                                </constraints>
                                 <connections>
                                     <action selector="annieButton:" destination="nmf-Xr-YvN" eventType="touchUpInside" id="t0W-oe-Yvk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xN-su-23v">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xN-su-23v">
                                 <rect key="frame" x="20" y="331" width="374" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="haileyButton:" destination="nmf-Xr-YvN" eventType="touchUpInside" id="fXL-kz-A2C"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHG-vf-tGD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHG-vf-tGD">
                                 <rect key="frame" x="20" y="494" width="374" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="138" id="q59-xp-Ono"/>
+                                </constraints>
                                 <connections>
                                     <action selector="aliceButton:" destination="nmf-Xr-YvN" eventType="touchUpInside" id="rpd-9c-USr"/>
                                 </connections>
@@ -199,7 +200,52 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="leading" secondItem="qkJ-rE-bmx" secondAttribute="leading" id="06g-Gr-dgg"/>
+                            <constraint firstItem="qma-q5-7hz" firstAttribute="top" secondItem="7xN-su-23v" secondAttribute="bottom" constant="42" id="0g8-qD-1d5"/>
+                            <constraint firstItem="6tF-LX-v4z" firstAttribute="centerY" secondItem="d3D-lk-ahj" secondAttribute="centerY" id="1JK-O9-hG9"/>
+                            <constraint firstItem="6tF-LX-v4z" firstAttribute="trailing" secondItem="pjK-kh-Oyl" secondAttribute="trailing" id="23s-JX-iEZ"/>
+                            <constraint firstItem="qkJ-rE-bmx" firstAttribute="top" secondItem="6tF-LX-v4z" secondAttribute="top" id="5d3-Xb-9ce"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="centerX" secondItem="7lf-RX-FH7" secondAttribute="centerX" id="6v2-5O-UqA"/>
+                            <constraint firstItem="7xN-su-23v" firstAttribute="top" secondItem="6tF-LX-v4z" secondAttribute="bottom" constant="32" id="AgW-QG-h4Q"/>
+                            <constraint firstItem="9mn-Hl-LHs" firstAttribute="top" secondItem="TOm-QR-Ul1" secondAttribute="top" constant="20" id="Aso-9s-v6t"/>
                             <constraint firstItem="G3f-iL-hqr" firstAttribute="width" secondItem="nmf-Xr-YvN" secondAttribute="width" multiplier="0.330918" id="BjH-4p-r6x"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="leading" secondItem="qma-q5-7hz" secondAttribute="leading" id="CAP-Mp-4yD"/>
+                            <constraint firstItem="pjK-kh-Oyl" firstAttribute="trailing" secondItem="b1G-PG-7wy" secondAttribute="trailing" id="D9v-fM-HOg"/>
+                            <constraint firstItem="TOm-QR-Ul1" firstAttribute="trailing" secondItem="9mn-Hl-LHs" secondAttribute="trailing" constant="319" id="DSl-7t-70L"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="centerX" secondItem="nmf-Xr-YvN" secondAttribute="centerX" id="DmH-kG-y8r"/>
+                            <constraint firstItem="TOm-QR-Ul1" firstAttribute="bottom" secondItem="G3f-iL-hqr" secondAttribute="bottom" constant="40" id="ELY-eJ-3et"/>
+                            <constraint firstItem="6tF-LX-v4z" firstAttribute="leading" secondItem="d3D-lk-ahj" secondAttribute="trailing" constant="8" id="Ek4-rG-p1P"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="leading" secondItem="9mn-Hl-LHs" secondAttribute="leading" id="F34-Sm-6qz"/>
+                            <constraint firstItem="HMM-NR-viT" firstAttribute="top" secondItem="TOm-QR-Ul1" secondAttribute="top" constant="52" id="FGF-mG-GCP"/>
+                            <constraint firstItem="6tF-LX-v4z" firstAttribute="leading" secondItem="pjK-kh-Oyl" secondAttribute="leading" id="HHb-Lj-12V"/>
+                            <constraint firstItem="4iP-EK-tHo" firstAttribute="top" secondItem="qkJ-rE-bmx" secondAttribute="bottom" constant="42" id="ISB-yA-iWJ"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="bottom" secondItem="7Z2-6n-o9a" secondAttribute="bottom" id="IZG-QH-60X"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="leading" secondItem="nmf-Xr-YvN" secondAttribute="leadingMargin" id="Jcg-dS-4e1"/>
+                            <constraint firstItem="HMM-NR-viT" firstAttribute="centerY" secondItem="SVt-HO-qRQ" secondAttribute="centerY" id="Kyn-8K-gFv"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="leading" secondItem="7xN-su-23v" secondAttribute="leading" id="MEw-IM-hCv"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="centerX" secondItem="7xN-su-23v" secondAttribute="centerX" id="N3B-Ye-aFk"/>
+                            <constraint firstItem="pjK-kh-Oyl" firstAttribute="centerY" secondItem="4iP-EK-tHo" secondAttribute="centerY" id="NJU-Uh-6Pr"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="top" secondItem="7xN-su-23v" secondAttribute="bottom" constant="25" id="P59-pb-320"/>
+                            <constraint firstItem="qkJ-rE-bmx" firstAttribute="bottom" secondItem="d3D-lk-ahj" secondAttribute="bottom" id="Q5n-L3-fX4"/>
+                            <constraint firstItem="pjK-kh-Oyl" firstAttribute="leading" secondItem="4iP-EK-tHo" secondAttribute="trailing" constant="6" id="QM1-Af-bQj"/>
+                            <constraint firstItem="7lf-RX-FH7" firstAttribute="top" secondItem="HMM-NR-viT" secondAttribute="bottom" constant="24" id="QM1-yE-xl8"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="top" secondItem="b1G-PG-7wy" secondAttribute="bottom" constant="1" id="T4N-sG-cXH"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="top" secondItem="7Z2-6n-o9a" secondAttribute="top" id="UlP-rn-Znn"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="leading" secondItem="d3D-lk-ahj" secondAttribute="leading" id="Whz-11-Peo"/>
+                            <constraint firstItem="6tF-LX-v4z" firstAttribute="leading" secondItem="b1G-PG-7wy" secondAttribute="leading" id="b6O-pc-42J"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="centerX" secondItem="SVt-HO-qRQ" secondAttribute="centerX" id="cIa-b4-xf0"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="centerX" secondItem="AHG-vf-tGD" secondAttribute="centerX" id="dcY-iw-mIK"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="trailing" secondItem="7Z2-6n-o9a" secondAttribute="trailing" id="ibU-pb-6Uo"/>
+                            <constraint firstItem="7Z2-6n-o9a" firstAttribute="top" secondItem="AHG-vf-tGD" secondAttribute="bottom" constant="8" id="k3H-VI-di0"/>
+                            <constraint firstItem="qkJ-rE-bmx" firstAttribute="top" secondItem="7lf-RX-FH7" secondAttribute="bottom" constant="8" id="l2i-Us-35y"/>
+                            <constraint firstItem="pjK-kh-Oyl" firstAttribute="top" secondItem="6tF-LX-v4z" secondAttribute="bottom" constant="35" id="m19-dM-8mr"/>
+                            <constraint firstItem="qma-q5-7hz" firstAttribute="bottom" secondItem="b1G-PG-7wy" secondAttribute="bottom" id="ngs-CA-2MB"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="leading" secondItem="7Z2-6n-o9a" secondAttribute="leading" id="oIj-di-EYy"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="centerX" secondItem="qkJ-rE-bmx" secondAttribute="centerX" id="oMY-VC-gYA"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="leading" secondItem="4iP-EK-tHo" secondAttribute="leading" id="qLU-Kl-LSO"/>
+                            <constraint firstItem="TOm-QR-Ul1" firstAttribute="trailing" secondItem="6tF-LX-v4z" secondAttribute="trailing" constant="27" id="qb6-rk-vrh"/>
+                            <constraint firstItem="G3f-iL-hqr" firstAttribute="centerX" secondItem="HMM-NR-viT" secondAttribute="centerX" id="sJn-md-JoX"/>
+                            <constraint firstItem="AHG-vf-tGD" firstAttribute="top" secondItem="pjK-kh-Oyl" secondAttribute="bottom" constant="37" id="wV9-4i-XY5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TOm-QR-Ul1"/>
                     </view>
