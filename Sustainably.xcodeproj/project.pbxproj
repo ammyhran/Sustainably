@@ -25,6 +25,20 @@
 		65926A8424C0F44000AC15D3 /* GlobalAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A8324C0F44000AC15D3 /* GlobalAccounts.swift */; };
 		65926A8624C0F44C00AC15D3 /* GlobalDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A8524C0F44C00AC15D3 /* GlobalDonate.swift */; };
 		65926A8824C0F45800AC15D3 /* GlobalPetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A8724C0F45800AC15D3 /* GlobalPetition.swift */; };
+		65926A8A24C12EE400AC15D3 /* SeattleRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A8924C12EE400AC15D3 /* SeattleRestaurants.swift */; };
+		65926A8C24C12EF600AC15D3 /* SeattleGardens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A8B24C12EF600AC15D3 /* SeattleGardens.swift */; };
+		65926A8E24C12F2500AC15D3 /* SeattleVolunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A8D24C12F2500AC15D3 /* SeattleVolunteer.swift */; };
+		65926A9024C12F5000AC15D3 /* SeattleThriftStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A8F24C12F5000AC15D3 /* SeattleThriftStores.swift */; };
+		65926A9224C12F7C00AC15D3 /* SeattleClothingDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9124C12F7C00AC15D3 /* SeattleClothingDonate.swift */; };
+		65926A9424C1305C00AC15D3 /* GlobalImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9324C1305C00AC15D3 /* GlobalImpact.swift */; };
+		65926A9624C130CF00AC15D3 /* PersonalGarden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9524C130CF00AC15D3 /* PersonalGarden.swift */; };
+		65926A9824C130DA00AC15D3 /* PersonalKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9724C130DA00AC15D3 /* PersonalKitchen.swift */; };
+		65926A9A24C130E600AC15D3 /* PersonalBedroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9924C130E600AC15D3 /* PersonalBedroom.swift */; };
+		65926A9C24C130F200AC15D3 /* SFRestuarants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9B24C130F200AC15D3 /* SFRestuarants.swift */; };
+		65926A9E24C1310100AC15D3 /* SFVolunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9D24C1310100AC15D3 /* SFVolunteer.swift */; };
+		65926AA024C1310C00AC15D3 /* SFGarden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926A9F24C1310C00AC15D3 /* SFGarden.swift */; };
+		65926AA224C1311700AC15D3 /* SFThrift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926AA124C1311700AC15D3 /* SFThrift.swift */; };
+		65926AA424C1322700AC15D3 /* OurStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65926AA324C1322700AC15D3 /* OurStory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +83,20 @@
 		65926A8324C0F44000AC15D3 /* GlobalAccounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalAccounts.swift; sourceTree = "<group>"; };
 		65926A8524C0F44C00AC15D3 /* GlobalDonate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDonate.swift; sourceTree = "<group>"; };
 		65926A8724C0F45800AC15D3 /* GlobalPetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalPetition.swift; sourceTree = "<group>"; };
+		65926A8924C12EE400AC15D3 /* SeattleRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleRestaurants.swift; sourceTree = "<group>"; };
+		65926A8B24C12EF600AC15D3 /* SeattleGardens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleGardens.swift; sourceTree = "<group>"; };
+		65926A8D24C12F2500AC15D3 /* SeattleVolunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleVolunteer.swift; sourceTree = "<group>"; };
+		65926A8F24C12F5000AC15D3 /* SeattleThriftStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleThriftStores.swift; sourceTree = "<group>"; };
+		65926A9124C12F7C00AC15D3 /* SeattleClothingDonate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeattleClothingDonate.swift; sourceTree = "<group>"; };
+		65926A9324C1305C00AC15D3 /* GlobalImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpact.swift; sourceTree = "<group>"; };
+		65926A9524C130CF00AC15D3 /* PersonalGarden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalGarden.swift; sourceTree = "<group>"; };
+		65926A9724C130DA00AC15D3 /* PersonalKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalKitchen.swift; sourceTree = "<group>"; };
+		65926A9924C130E600AC15D3 /* PersonalBedroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalBedroom.swift; sourceTree = "<group>"; };
+		65926A9B24C130F200AC15D3 /* SFRestuarants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFRestuarants.swift; sourceTree = "<group>"; };
+		65926A9D24C1310100AC15D3 /* SFVolunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFVolunteer.swift; sourceTree = "<group>"; };
+		65926A9F24C1310C00AC15D3 /* SFGarden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGarden.swift; sourceTree = "<group>"; };
+		65926AA124C1311700AC15D3 /* SFThrift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFThrift.swift; sourceTree = "<group>"; };
+		65926AA324C1322700AC15D3 /* OurStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +151,20 @@
 				65926A8324C0F44000AC15D3 /* GlobalAccounts.swift */,
 				65926A8524C0F44C00AC15D3 /* GlobalDonate.swift */,
 				65926A8724C0F45800AC15D3 /* GlobalPetition.swift */,
+				65926A8924C12EE400AC15D3 /* SeattleRestaurants.swift */,
+				65926A8B24C12EF600AC15D3 /* SeattleGardens.swift */,
+				65926A8D24C12F2500AC15D3 /* SeattleVolunteer.swift */,
+				65926A8F24C12F5000AC15D3 /* SeattleThriftStores.swift */,
+				65926A9124C12F7C00AC15D3 /* SeattleClothingDonate.swift */,
+				65926A9324C1305C00AC15D3 /* GlobalImpact.swift */,
+				65926A9524C130CF00AC15D3 /* PersonalGarden.swift */,
+				65926A9724C130DA00AC15D3 /* PersonalKitchen.swift */,
+				65926A9924C130E600AC15D3 /* PersonalBedroom.swift */,
+				65926A9B24C130F200AC15D3 /* SFRestuarants.swift */,
+				65926A9D24C1310100AC15D3 /* SFVolunteer.swift */,
+				65926A9F24C1310C00AC15D3 /* SFGarden.swift */,
+				65926AA124C1311700AC15D3 /* SFThrift.swift */,
+				65926AA324C1322700AC15D3 /* OurStory.swift */,
 				65926A6D24C0C42E00AC15D3 /* cityOptionsPage.swift */,
 				65926A6F24C0C71A00AC15D3 /* localImpactSanFran.swift */,
 				18B1E8D124BE4D2600395310 /* AppDelegate.swift */,
@@ -289,16 +331,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65926A9424C1305C00AC15D3 /* GlobalImpact.swift in Sources */,
+				65926A9E24C1310100AC15D3 /* SFVolunteer.swift in Sources */,
 				18B1E90D24BF9D3800395310 /* LocalViewController.swift in Sources */,
 				18B1E8D624BE4D2600395310 /* ViewController.swift in Sources */,
+				65926A9024C12F5000AC15D3 /* SeattleThriftStores.swift in Sources */,
+				65926A9A24C130E600AC15D3 /* PersonalBedroom.swift in Sources */,
+				65926A9C24C130F200AC15D3 /* SFRestuarants.swift in Sources */,
+				65926AA224C1311700AC15D3 /* SFThrift.swift in Sources */,
 				65926A8424C0F44000AC15D3 /* GlobalAccounts.swift in Sources */,
 				65926A7024C0C71A00AC15D3 /* localImpactSanFran.swift in Sources */,
 				65926A6E24C0C42E00AC15D3 /* cityOptionsPage.swift in Sources */,
 				65926A8624C0F44C00AC15D3 /* GlobalDonate.swift in Sources */,
 				65926A8224C0F43200AC15D3 /* GlobalStores.swift in Sources */,
+				65926A8E24C12F2500AC15D3 /* SeattleVolunteer.swift in Sources */,
+				65926A9224C12F7C00AC15D3 /* SeattleClothingDonate.swift in Sources */,
+				65926A9824C130DA00AC15D3 /* PersonalKitchen.swift in Sources */,
+				65926A8C24C12EF600AC15D3 /* SeattleGardens.swift in Sources */,
+				65926A8A24C12EE400AC15D3 /* SeattleRestaurants.swift in Sources */,
 				18B1E90B24BF9D0700395310 /* PersonalViewController.swift in Sources */,
 				18B1E90F24BF9DF600395310 /* GlobalViewController.swift in Sources */,
+				65926AA424C1322700AC15D3 /* OurStory.swift in Sources */,
 				18B1E8D224BE4D2600395310 /* AppDelegate.swift in Sources */,
+				65926A9624C130CF00AC15D3 /* PersonalGarden.swift in Sources */,
+				65926AA024C1310C00AC15D3 /* SFGarden.swift in Sources */,
 				65926A8824C0F45800AC15D3 /* GlobalPetition.swift in Sources */,
 				18B1E8D424BE4D2600395310 /* SceneDelegate.swift in Sources */,
 				18B1E8DC24BE4D2600395310 /* Sustainably.xcdatamodeld in Sources */,
