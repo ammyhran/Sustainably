@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -2521,12 +2521,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWY-eF-7aR">
-                                <rect key="frame" x="118" y="62" width="165" height="51"/>
+                                <rect key="frame" x="112" y="62" width="159" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dFB-jL-4tm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEn-wF-qWj">
-                                <rect key="frame" x="114" y="665" width="165" height="139"/>
+                                <rect key="frame" x="118" y="665" width="165" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="zwa-OW-omx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -2536,7 +2542,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MeP-GV-r5T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1209" y="-1945"/>
+            <point key="canvasLocation" x="1208.6956521739132" y="-1945.3125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d9a-Q8-ma3">
@@ -2640,13 +2646,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Js3-mA-scz"/>
         <segue reference="1Pr-gd-BmS"/>
         <segue reference="vQi-TO-B6W"/>
         <segue reference="PrT-Zd-xGJ"/>
-        <segue reference="dEc-b9-UiU"/>
+        <segue reference="OE1-53-TkQ"/>
         <segue reference="wcr-fj-4YY"/>
-        <segue reference="vkt-d9-9YB"/>
+        <segue reference="zwa-OW-omx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2843BA7A-8449-46FB-83E2-42043551B119_1_105_c" width="850" height="924"/>
