@@ -9,9 +9,7 @@
 import UIKit
 
 class SFVolunteer: UIView {
-    sunrise movement (https://www.sunrisemovement.org)
-    youth vs. apocalypse (http://youthvsapocalypse.org)
-    citizen’s climate lobby (https://citizensclimatelobby.org)
+ 
 
 
 
