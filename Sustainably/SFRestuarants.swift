@@ -9,6 +9,27 @@
 import UIKit
 
 class SFRestuarants: UIView {
+    
+    @IBAction func buttonOne(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://theplantcafe.com")! as URL, options: [:], completionHandler: nil)
+
+    }
+    
+    
+    @IBAction func superButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.superduperburgers.com")! as URL, options: [:], completionHandler: nil)
+
+    }
+    
+    
+    
+    @IBAction func belovedButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.belovedsf.com")! as URL, options: [:], completionHandler: nil)
+
+    }
+    
+    
+    
 
     /*
     // Only override draw() if you perform custom drawing.

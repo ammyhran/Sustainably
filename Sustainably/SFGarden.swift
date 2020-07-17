@@ -9,6 +9,32 @@
 import UIKit
 
 class SFGarden: UIView {
+    
+    
+    @IBAction func corwinButton(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "http://sfrecpark.org/Facilities/Facility/Details/Corwin-Street-Community-Garden-405")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    @IBAction func alemanyGarden(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "http://sfrecpark.org/Facilities/Facility/Details/Alemany-Farm-292")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    
+    @IBAction func chanGarden(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "http://sfrecpark.org/Facilities/Facility/Details/In-Chan-Kaajal-303")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 
     /*
     // Only override draw() if you perform custom drawing.
